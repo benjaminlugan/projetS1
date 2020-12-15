@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>UNFACED.</title>
+    <link rel="icon" type="image/png" sizes="48x48" href="img/logo-unfaced.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo-unfaced.png">
+    <link rel="stylesheet" href="article1.html"/>
+    <link rel="stylesheet" href="article2.html"/>
+    <link rel="stylesheet" href="article3.html"/>
+    <link rel="stylesheet" href="css/mescss/mise-en-page.css"/>
+    <link rel="stylesheet" href="css/mescss/styles-typographique.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/lib/normalize.css ">
+</head>
+
+<body class="accueil">
+<header>
+    <div class="haut">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-unfaced.png" alt="logo du site" height="175" width="175"></a>
+        </div>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggler-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="article1.html">Introduction</a></li>
+                <li><a href="article2.html">Problématique</a></li>
+                <li><a href="article3.html">Solutions</a></li>
+                <li><a href="autres-projets.html">Autres Projets</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+        <div class="titre">
+            <a style="text-decoration:none" href="index.html"><h1>UNFACED.</h1></a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="selection">
+        <div class="presentation1">
+
+            <h1>Moi ?</h1>
+            <h2><em>et bien ...</em></h2>
+            <div class="fleche1">
+                <img src="img/fleche.png" alt="">
+            </div>
+        </div>
+        <div class="moi">
+            <img src="img/moi.jpg" alt="photo du créateur de ce site !">
+            <p>Si vous êtes ici, vous vous êtes sûrement perdu ! Ou alors vous souhaitez me contacter d’urgence. Je m’appelle <b class="term">Benjamin Lugan</b>. J’étudie en première année de <b class="term">DUT MMI à Montbéliard</b>. Cet exercice pédagogique vise à nous faire créer un <b class="term">site internet</b>. Plusieurs contraintes nous ont été donné. Un long travail en amont a été nécessaire. Le thème était «La face cachée d’Internet». Il ne s’agissait pas du «Deep Web» mais de la <b class="term">pollution environnementale</b> d’Internet. La création globale du site a commencé en septembre et s’est terminée mi-décembre.
+
+                Pour plus d’informations, vous pouvez directement me contacter depuis le site. Sinon, vous pouvez me suivre ou me contacter via mes réseaux sociaux.</p>
+        </div>
+        <div class="contact">
+            <h2>Me contacter :</h2>
+        </div>
+
+
+        <form method="post">
+        <section class="contacter">
+            <ul>
+                <li>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="user_name"  />
+                </li>
+                <li>
+                    <label for="firstname">Prénom </label>
+                    <input type="text" id="firstname" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">E-mail</label>
+                    <i class="fas fa-asterisk"></i>
+                    <input type="email" id="mail" name="user_mail" />
+                </li>
+                <li>
+                    <div class="marge2">
+                        <label for="msg">Votre message</label>
+                    </div>
+                    <i class="fas fa-asterisk"></i>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Envoyer</button>
+                </li>
+            </ul>
+        </section>
+        </form>
+        <div class="contact">
+            <h2>Mes réseaux sociaux :</h2>
+        </div>
+        <div class="reseaux-sociaux">
+        <div class="instagram">
+            <a href="https://www.instagram.com/benjamin.lugan/?hl=fr"><img src="img/instagram.png" alt="logo twitter" width="200"></a>
+        </div>
+        <div class="twitter">
+            <a href="https://twitter.com/BenjaminLugan"><img src="img/twitter.png" alt="logo twitter" width="200"></a>
+        </div>
+        </div>
+
+            <footer>
+                <nav class="pied-de-page">
+                    <div class="footer">
+                        <h4>Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Belfort-Montbéliard </h4>
+                        <p>Benjamin Lugan B2</p>
+                    </div>
+                    <div class="logo-mmi">
+                        <a href="http://mmimontbeliard.com/"><img src="img/logo-mmi.png" alt="logo du département MMI" width="100"></a>
+                    </div>
+                </nav>
+            </footer>
+
+
+</body>
+</html>
