@@ -1,0 +1,474 @@
+/* ACCUEIL */
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 225% ;
+    background-color: #fffff0;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.haut {
+    position: fixed;
+    background-color: #23365b;
+    height: 150px;
+    width: 980px;
+}
+
+.logo {
+    position: fixed;
+}
+
+.titre {
+    text-align: center;
+    color: #fffff0;
+    margin: -10px 0 0 0;
+    text-decoration: none;
+
+}
+
+main {
+    padding-top: 140px;
+}
+
+.presentation {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 530px;
+    color: ivory;
+    background-color: steelblue;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px ;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.presentation h1 {
+    font-size: 400%;
+    font-family: "Archivo Black", sans-serif ;
+    margin-top: -50px;
+}
+
+.fleche {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 165px;
+
+
+}
+
+.affiche {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.affiche p {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.affiche img {
+    box-shadow: 1px 1px 12px #555;
+}
+
+p, h2 {
+    padding: 50px 5%;
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-family: "Archivo Black", sans-serif;
+}
+
+.navigation-principale {
+    font-size: 130%;
+}
+
+.navigation-principale img {
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.accès-article-1 h2 {
+    text-align: center;
+    color: #fffff0;
+    background-color: steelblue;
+    box-shadow: 1px 1px 12px #555;
+}
+
+.accès-article-1 p,
+.accès-article-2 p,
+.accès-article-3 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 95%;
+}
+.accès-article-1 p,
+.accès-article-2 p,
+.accès-article-3 p {
+    margin-top: -80px;
+    border-left: 10px solid #23365b;
+}
+
+.accès-article-1 p {
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.accès-article-2 p {
+    margin-bottom: -10px;
+}
+
+
+article {
+    margin-bottom: -50px;
+}
+
+/* ARTICLE 1 */
+
+.presentation1 img {
+    font-size: 50px;
+}
+
+.presentation1 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 620px;
+    color: ivory;
+    background-color: steelblue;
+    margin-bottom: 150px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px ;
+}
+
+.presentation1 h1 {
+    font-size: 370%;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.fleche1 {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.texte-article1 p {
+    margin-top: -30px;
+    font-size: 130%;
+}
+
+.description {
+    font-size: 70%;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.texte-article1 img{
+    max-width: 100%;
+    text-align: center;
+}
+
+.accès-article-1 h3,
+.accès-article-2 h3,
+.accès-article-3 h3 {
+    z-index: 1;
+    margin-top: -300px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.accès-article-1 a,
+.accès-article-2 a,
+.accès-article-3 a{
+    color: white;
+}
+
+
+
+video{
+    border-radius: 8px;
+    box-shadow: 1px 1px 12px #555;
+    display: block;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+}
+
+.films-similaires {
+    max-width: 100%;
+    text-align: center;
+}
+
+.films-similaires a {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.suivant {
+    text-decoration: none;
+    font-size: 250%;
+    color: white;
+}
+
+
+
+/* Article 2 */
+
+.scientifique a,
+.suivant a {
+    display: block;
+    background-color: steelblue;
+    text-align: center;
+    color: ivory;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 150px;
+    text-decoration: none;
+    box-shadow: 1px 1px 12px #555;
+    font-size: 50%
+}
+
+.scientifique a {
+    font-size: 100%;
+}
+
+.aspect-scientifique {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    background-color: lightblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px ;
+    border-top-right-radius: 90px;
+}
+
+blockquote {
+    font-size: 125%;
+    border-left: 10px solid #23365b;
+    padding-left: 40px;
+}
+/* Article 3 */
+
+
+
+/* Autres projets */
+
+.carousel h2 {
+    margin-top: -100px;
+
+}
+
+.carousel {
+    background-color: lightblue;
+    color: ivory;
+    text-align: center;
+    z-index: 2;
+    margin-bottom: -90px;
+    padding-bottom: 1px;
+}
+
+.carousel img {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+ul.carousel-items {
+    list-style: none;
+    padding: 20px 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    background-color: #233668;
+}
+
+li .carousel-item {
+    flex: 1 0 220px;
+    scroll-snap-align: center;
+}
+
+li.carousel-item :nth-child(n+6) {
+    margin-bottom: -100px;
+}
+
+.carousel-item p {
+    text-decoration: none;
+    color: ivory;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: tomato;
+}
+
+.marge {
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+/* À propos */
+
+.moi {
+    font-size: 130%;
+}
+
+.moi img {
+    max-width: 90%;
+    border-radius: 78px;
+    margin-left: 50px;
+}
+
+.contact {
+    text-align: center;
+    color: ivory;
+    background-color: steelblue;
+}
+
+.contacter {
+    margin-top: 100px;
+    font-size: 110%;
+    font-family: "Open Sans", sans serif;
+}
+
+.contacter ul li  {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding-left: -100px;
+    border-radius: 1em;
+}
+
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    width: 80px;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 130%;
+    margin-left: -175px;
+    margin-bottom: 10px;
+
+}
+
+.marge2 {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    border-radius: 20px;
+    width: 700px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin-left: -185px;
+    height: 100px;
+    margin-bottom: 0;
+    box-shadow: 1px 1px 9px #555;
+}
+
+textarea {
+    height: 11em;
+}
+
+.button {
+    padding-left: 90px;
+    font-size: 150%;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    background-color: #23365b;;
+    text-align: center;
+    color: ivory;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 150%;
+    margin-left: -125px;
+}
+
+.carousel p {
+    font-size: 150%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.reseaux-sociaux {
+    margin-bottom: 500px;
+}
+
+.instagram {
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    margin-left: 150px;
+}
+
+.twitter {
+    text-align: center;
+    float: right;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+/* Footer */
+
+footer {
+    background-color: #23365b;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.pied-de-page h4 {
+    padding: 50px 5%;
+    color: #fffff0;
+}
+footer p {
+    text-align: center;
+    color: #fffff0;
+    margin-top: -100px;
+}
+
+.logo-mmi {
+    margin-top: -50px;
+}
+
+
+/* Résolution d'erreurs */
+
+.probleme-photo {
+    text-align: center;
+}
+
+hr {
+    margin-top: -50px;
+}
+
+.probleme-projet {
+margin-top: 235px;
+}
+
+
+
