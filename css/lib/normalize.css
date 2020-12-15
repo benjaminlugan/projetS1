@@ -40,6 +40,9 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color: #fffff0;
+  font-family: "Archivo Black", sans-serif;
+  text-decoration: none;
 }
 
 /* Grouping content
@@ -157,11 +160,9 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
-input,
+
 optgroup,
-select,
-textarea {
+select {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -347,3 +348,5 @@ template {
 [hidden] {
   display: none;
 }
+
+
